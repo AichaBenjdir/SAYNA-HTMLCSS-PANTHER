@@ -1,0 +1,393 @@
+@import url('https://fonts.cdnfonts.com/css/panthera');
+
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+  background-image: url(../IllustrationsLogo/Allpages/arrière_plan.png);
+width: 100%;
+min-height: 100%;
+display: grid;
+
+
+
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*Header start*/
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#navbar img{
+    width: 80px;
+    margin-left: 100px;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+  margin-right: 100px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Panthera', sans-serif;
+}
+#navbar ul li a:hover{
+    color: #3D2DA6;
+    text-decoration: underline;
+    /*border-bottom: 2px solid #3D2DA6;*/
+}
+
+/*Header End*/
+#about{
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+    flex:0 0 auto;
+    width:60%;
+   
+    
+}
+
+#about .contentBx{
+    max-width: 50%;
+    width: 50%;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.titleText{
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  text-align: center;
+   
+}
+
+.title-text{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-size: 15px;
+    padding: 50px 100px;
+    padding-right: 50px;
+}
+
+.about .imgBx{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+    float: left;
+    margin-right: 15px;
+   
+    
+}
+.personnage{
+    display: flex;
+   justify-content: space-between;
+   margin: 150px;
+        width: 70%;
+        
+    
+    }
+    .personnage .personnage-item{
+        max-width: 320px;
+        float: left;
+        text-align: left;
+        
+        
+    }
+    
+    .personnage-info{
+        color: white;
+        margin-right: 20px;
+        position: relative;
+        display: flex;
+        width: 60%;
+        margin: 40px auto;
+    }
+    .personnage-info h3{
+        font-size: 30px;
+    }
+    .personnage-info p{
+        font-size: 15px;
+        
+    }
+
+
+
+    #multimedia .slider-multimedia{
+        display: flex;
+        width: 70%;
+        margin: 17px auto;
+    }
+    #multimedia .slider-image{
+        width: 100%;
+    }
+    #multimedia .slider-content{
+        padding: 15px;
+        background-color: #3D2DA6;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    #multimedia p{
+    font-size: 14px;
+    }
+    .container
+{
+--bs-gutter-x: 1.8rem;
+--bs-gutter-y: 0;
+
+
+
+}
+.container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 150px;
+
+}
+ .content .columns {
+    flex:0 0 auto;
+    width:50%;
+   
+    
+}
+.titleT{
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  text-align: left;
+}
+.title-T{
+   font-size: 15px;
+    color: white;
+    
+    margin-bottom: 5px;
+  text-align: left;
+}
+.wrapper{
+   /*margin: 15 auto;*/
+   
+    padding: 100px 200px;
+ 
+    margin-top: 150px;
+    
+  }
+  
+  .wrapper h1{
+    
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .team .team_member{
+    background: #fff;
+    margin: 8px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: black;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+   
+    background: #fff;
+  }
+  
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 15px 5px auto;
+  }
+  .team .team_member ul{
+    color: black;
+    text-align: left;
+  }
+
+  .team .team_member p{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  #contact{
+    background-image: url(../IllustrationsLogo/Accueil/Pantherhome7.png);
+    padding: 70px 0;
+display: block;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 100px 280px;
+  background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+  display: flex;
+}
+.footer div{
+  text-align: center;
+
+}
+.col-1 {
+  background-image: url(../IllustrationsLogo/Allpages/footer1.png);
+  padding: 173px 95px ;
+}
+.col-2{
+  flex-grow: 2;
+  margin: 3px;
+  padding: 50px 50px;
+  color: white;
+  
+}
+.col-2 h3{
+letter-spacing: 0.4em;
+}
+.col-2 ul{
+  text-align: center;
+}
+.col-2 ul li{
+  
+  color: white;
+  padding:20px  0;
+  margin: 0 50px;
+  font-size: 25px;
+  text-transform: capitalize;
+ 
+ 
+ 
+}
+
+
+.col-3{
+  flex-grow: 2;
+  margin: 3px;
+  padding: 50px 50px;
+  color: white;
+  
+}
+.col-3 h3{
+  color: white;
+  letter-spacing: 0.4em;
+}
+.col-3 .social-icon{
+  padding:20px  0;
+  margin: 0 50px;
+  font-size: 25px;
+ 
+  
+  position: relative;
+ 
+}
+
+#contact .form{
+  /*width: 300px;
+  padding: 300px auto;
+  position: absolute;*/
+  width: 600px;
+  
+   height: auto;
+  
+   position: absolute;
+  
+   left: 50%;
+  
+   transform: translate(-50%, -50%);
+   margin: auto 30px;
+   background: white;
+   border-radius: 50px;
+   background-size: 38px;
+   padding: 30px 15px;
+  
+  }
+  
+  #contact h2{
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 32px;
+      color: black;
+  }
+  #contact p{
+    color: black;
+    margin: 15px;
+    padding: 0 3px;
+  }
+  ::placeholder{
+    color: #979796;
+    font-size: 15px;
+    justify-content: center;
+    
+  }
+  
+  input {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    display: block;
+    justify-content: center;
+  }
+  
+  input[type= 'submit']{
+    display: block;
+    width: 230px;
+    margin: 25px auto;
+    padding: 15px 0;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background: linear-gradient(45deg, rgb(155, 153, 153), rgb(179, 41, 41));
+    border-radius: 38px;
+  }

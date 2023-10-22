@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/panthera');
+
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    padding: 50px 70px;
+}
+body{
+    background-image: url(../IllustrationsLogo/Allpages/arrière_plan.png);
+    margin-bottom: 40px;
+}
+
+
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*Header start*/
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#navbar img{
+    width: 80px;
+    margin-left: 100px;
+    color: white;
+}
+
+#navbar ul{
+    display: flex;
+  margin-right: 100px;
+}
+#navbar ul li a{
+    padding: 80px 40px;
+    color: white;
+    font-weight: 1000;
+    font-family: 'Panthera', sans-serif;
+}
+#navbar ul li a:hover{
+    color: #3D2DA6;
+    text-decoration: underline;
+    /*border-bottom: 2px solid #3D2DA6;*/
+}
+
+
+
+
+
+body
+{
+overflow-x:hidden;
+
+}
+.section-container
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+
+height: 600px;
+
+display: block;
+
+}
+.section-container .columns.content .content-container
+{
+padding:180px 80px;
+}
+.section-container .columns.content .content-container h5
+{
+font-weight:1800;
+padding: 10px 50px;
+font-size:60px;
+margin-bottom:10px;
+color: DarkMagenta;
+text-transform: uppercase;
+}
+
+
+.content-container p{
+    font-weight:300;
+
+padding: 150px 150px;
+background-image: url(../IllustrationsLogo/Enigme/Pantherenigme2.png);
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:2px;
+text-align:center;
+color: white;
+
+
+}
+
+
+.container
+{
+--bs-gutter-x: 1.8rem;
+--bs-gutter-y: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 280px;
+    background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    display: flex;
+  }
+  .footer div{
+    text-align: center;
+  
+  }
+  .col-1 {
+    background-image: url(../IllustrationsLogo/Allpages/footer1.png);
+    padding: 173px 95px ;
+  }
+  .col-2{
+    flex-grow: 2;
+    margin: 3px;
+    padding: 50px 50px;
+    color: white;
+    
+  }
+  .col-2 h3{
+  letter-spacing: 0.4em;
+  }
+  .col-2 ul{
+    text-align: center;
+  }
+  .col-2 ul li{
+    
+    color: white;
+    padding:20px  0;
+    margin: 0 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+   
+   
+   
+  }
+  
+  
+  .col-3{
+    flex-grow: 2;
+    margin: 3px;
+    padding: 50px 50px;
+    color: white;
+    
+  }
+  .col-3 h3{
+    color: white;
+    letter-spacing: 0.4em;
+  }
+  .col-3 .social-icon{
+    padding:20px  0;
+    margin: 0 50px;
+    font-size: 25px;
+   
+    
+    position: relative;
+   
+  }
+  
