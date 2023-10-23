@@ -1,5 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/panthera');
-
+@import url(https://db.onlinewebfonts.com/c/9d321e63e55e0cc4622852096e2fac4a?family=BEYNO);
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/582850da0def991b32a24aa69a948d25?family=Wakanda+Forever+Regular);
 
 *{ 
     padding: 0;
@@ -99,10 +101,11 @@ font-size:60px;
 margin-bottom:10px;
 color: DarkMagenta;
 text-transform: uppercase;
+font-family: "BEYNO";
 }
 
 
-.content-container p{
+.content-container p {
     font-weight:300;
 
 padding: 150px 150px;
@@ -123,17 +126,85 @@ color: white;
 --bs-gutter-y: 0;
 
 
-
 }
 
+.container h3{
+  font-size: 40px;
+  font-family:"Wakanda Forever Regular" ;
+  padding: 0 180px;
+  color: #3D2DA6;
+}
+.colonne{
+  display: flex;
+  justify-content: space-between;
+  
+ /* padding: 25px 30px ;*/
+ align-items: center;
+  margin: 3px px;
+ padding: 50px 100px;
 
+}
+.colonne1{
+  float: left;
+  
+  padding: 40px 100px;
+  width: 80%;
+  color: white;
+}
 
+/*.colonne .colonne1{
+  margin: 20px 30px ;
+  padding: 30px 50px;
+  margin-bottom:30px;
+  margin-bottom:40px;
+  text-align:left;
+  
+ 
+}*/
+.colonne11 h6{
+  font-size: 16px;
+  margin: 2px;
 
+}
+.colonne11 ul {
+  float: left;
+  margin: 80px 10px;
+  font-family: "Cantarell-Regular";
+  
+}
+.colonne12 h6{
+padding: 20px ;
+}
+::placeholder{
+  color: #979796;
+  font-size: 15px;
+  text-align: left;
+  margin: 3px;
+  
+}
 
+.colonne12 input{
+  margin: 15px;
+  padding: 10px 80px;
+  border-radius: 30px;
+  border-color:#DF99F2;
 
+}
+.colonne12 button{
+  margin-top: 60px;
+  margin-left: 100px;
+  padding: 5px 30px;
+  border-radius: 30px;
+  background-color: #F2CEF2;
+}
+.colonne2{
+  float: right;
+  /*background-image:url(../IllustrationsLogo/Enigme/Pantherenigme2.png); */
+  padding: 10px 300px;
+  text-align: center;
+  color: white;
 
-
-
+}
 .footer{
     margin-top: 150px;
     width: 100%;

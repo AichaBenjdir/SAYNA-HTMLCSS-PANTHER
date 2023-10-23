@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/panthera');
-
-
+@import url(https://db.onlinewebfonts.com/c/9d321e63e55e0cc4622852096e2fac4a?family=BEYNO);
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/582850da0def991b32a24aa69a948d25?family=Wakanda+Forever+Regular);
 *{ 
     padding: 0;
     margin: 0;
@@ -75,13 +76,23 @@ a{
     text-align: left;
     padding-right: 40px;
 }
-
+.title{
+  font-weight: 600;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+text-align: center;
+text-transform: uppercase;
+font-family: 'panthera';
+ 
+}
 .titleText{
-    font-weight: 600;
+    font-weight: 300;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
   text-align: center;
+  font-family: 'Beyno';
    
 }
 
@@ -163,17 +174,20 @@ a{
 
 
 
+
 }
 .container .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 200px 150px;
+    
 
 }
  .content .columns {
-    flex:0 0 auto;
-    width:50%;
+  flex:0 0 auto;
+    width:60%;
+    padding: 10px 50px;
    
     
 }
@@ -271,67 +285,12 @@ display: block;
 }
 
 
-.footer{
-  margin-top: 150px;
-  width: 100%;
-  padding: 100px 280px;
-  background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
-  display: flex;
-}
-.footer div{
-  text-align: center;
-
-}
-.col-1 {
-  background-image: url(../IllustrationsLogo/Allpages/footer1.png);
-  padding: 173px 95px ;
-}
-.col-2{
-  flex-grow: 2;
-  margin: 3px;
-  padding: 50px 50px;
-  color: white;
-  
-}
-.col-2 h3{
-letter-spacing: 0.4em;
-}
-.col-2 ul{
-  text-align: center;
-}
-.col-2 ul li{
-  
-  color: white;
-  padding:20px  0;
-  margin: 0 50px;
-  font-size: 25px;
-  text-transform: capitalize;
- 
- 
- 
-}
 
 
-.col-3{
-  flex-grow: 2;
-  margin: 3px;
-  padding: 50px 50px;
-  color: white;
-  
-}
-.col-3 h3{
-  color: white;
-  letter-spacing: 0.4em;
-}
-.col-3 .social-icon{
-  padding:20px  0;
-  margin: 0 50px;
-  font-size: 25px;
- 
-  
-  position: relative;
- 
-}
+
+
+
+
 
 #contact .form{
   /*width: 300px;
@@ -346,12 +305,16 @@ letter-spacing: 0.4em;
    left: 50%;
   
    transform: translate(-50%, -50%);
-   margin: auto 30px;
+   margin: auto 40px;
    background: white;
-   border-radius: 50px;
+   border-radius: 70px;
    background-size: 38px;
-   padding: 30px 15px;
+   padding: 30px 20px;
   
+  }
+
+  .form p{
+    text-align: center;
   }
   
   #contact h2{
@@ -369,6 +332,7 @@ letter-spacing: 0.4em;
     color: #979796;
     font-size: 15px;
     justify-content: center;
+    padding: 15px;
     
   }
   
@@ -378,16 +342,113 @@ letter-spacing: 0.4em;
     border-radius: 38px;
     display: block;
     justify-content: center;
+    padding:20px  0;
+    margin: 30px 50px;
+  }
+
+  
+  textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 15px;
   }
   
-  input[type= 'submit']{
-    display: block;
-    width: 230px;
-    margin: 25px auto;
-    padding: 15px 0;
-    cursor: pointer;
-    color: white;
-    border: none;
-    background: linear-gradient(45deg, rgb(155, 153, 153), rgb(179, 41, 41));
-    border-radius: 38px;
+  textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    border-radius: 40px;
   }
+  
+  
+
+  .form button{
+    
+    justify-content: center;
+    padding:10px 60px;
+    margin: 15px 190px;
+    display: block;
+    justify-content: center;
+    
+    
+  }
+
+
+
+
+
+
+
+
+  .footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 280px;
+    background-image: url(../IllustrationsLogo/Allpages/back_footer.png);
+    display: flex;
+  }
+  .footer div{
+    text-align: center;
+  
+  }
+  .col-1 {
+    background-image: url(../IllustrationsLogo/Allpages/footer1.png);
+    padding: 173px 95px ;
+  }
+  .col-2{
+    flex-grow: 2;
+    margin: 3px;
+    padding: 50px 50px;
+    color: white;
+    
+  }
+  .col-2 h3{
+  letter-spacing: 0.4em;
+  }
+  .col-2 ul{
+    text-align: center;
+  }
+  .col-2 ul li{
+    
+    color: white;
+    padding:20px  0;
+    margin: 0 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+   
+   
+   
+  }
+  
+  
+  .col-3{
+    flex-grow: 2;
+    margin: 3px;
+    padding: 50px 50px;
+    color: white;
+    
+  }
+  .col-3 h3{
+    color: white;
+    letter-spacing: 0.4em;
+  }
+  .col-3 .social-icon{
+    padding:20px  0;
+    margin: 0 50px;
+    font-size: 25px;
+   
+    
+    position: relative;
+   
+  }
+
+
+
+
+
+
+
