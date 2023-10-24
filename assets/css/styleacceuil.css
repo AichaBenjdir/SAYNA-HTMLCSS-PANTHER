@@ -35,7 +35,7 @@ a{
    
 }
 #navbar img{
-    width: 80px;
+    width: 90px;
     margin-left: 100px;
     color: white;
 }
@@ -48,7 +48,7 @@ a{
     padding: 15px 20px;
     color: white;
     font-weight: 300;
-    font-family: 'Panthera', sans-serif;
+    font-family: 'Beyno';
 }
 #navbar ul li a:hover{
     color: #3D2DA6;
@@ -57,6 +57,37 @@ a{
 }
 
 /*Header End*/
+
+
+.scroll .left-bar{
+border-left: 2px solid gray;
+height: 425px;
+position: absolute;
+left: 30px;
+top: 0;
+}
+.scroll .mini-left-bar{
+  border-left: 2px solid gray;
+height: 285px;
+position: absolute;
+left: 60px;
+top: 0;
+}
+.scroll .social{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 300px;
+  left: 55px;
+  color: white;
+  
+}
+
+.social i{
+  padding: 9px 0px;
+}
+
+
 #about{
     position: relative;
     width: 100%;
@@ -74,21 +105,23 @@ a{
     max-width: 50%;
     width: 50%;
     text-align: left;
-    padding-right: 40px;
+    
+   margin: 5px 19px;
 }
 .title{
   font-weight: 600;
-  color: white;
-  font-size: 2rem;
+  color: #9E91B7;
+  font-size: 3rem;
   margin-bottom: 10px;
 text-align: center;
 text-transform: uppercase;
 font-family: 'panthera';
+margin-left: 100px;
  
 }
 .titleText{
     font-weight: 300;
-    color: white;
+    color: #9E91B7;
     font-size: 1.5rem;
     margin-bottom: 10px;
   text-align: center;
@@ -101,8 +134,9 @@ font-family: 'panthera';
     font-size: 1em;
     text-align: center;
     font-size: 15px;
-    padding: 50px 100px;
+    padding: 15px 2px;
     padding-right: 50px;
+    margin-left: 90px;
 }
 
 .about .imgBx{
@@ -157,13 +191,18 @@ font-family: 'panthera';
     #multimedia .slider-image{
         width: 100%;
     }
+   
     #multimedia .slider-content{
-        padding: 15px;
-        background-color: #3D2DA6;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        padding: 10px 40px;
+        background-color: #021740;
+        margin-bottom: 110px;
+        color: white;
     }
-    
+    .slider-content h2{
+      font-family: "BEYNO";
+      color: #9E91B7;
+    }
+  
     #multimedia p{
     font-size: 14px;
     }
@@ -192,25 +231,30 @@ font-family: 'panthera';
     
 }
 .titleT{
-    font-weight: 600;
-    color: white;
+    font-weight: 30;
+    color: #9E91B7;
     font-size: 2rem;
     margin-bottom: 10px;
   text-align: left;
+  font-family: "BEYNO";
 }
 .title-T{
-   font-size: 15px;
+    font-size: 1rem;;
     color: white;
     
     margin-bottom: 5px;
   text-align: left;
+  
+  
 }
 .wrapper{
    /*margin: 15 auto;*/
    
-    padding: 100px 200px;
- 
-    margin-top: 150px;
+    padding: 100px 100px;
+
+    margin-top: 1px;
+   
+    
     
   }
   
@@ -230,15 +274,45 @@ font-family: 'panthera';
   }
   .team .team_member{
     background: #fff;
-    margin: 8px;
+    
     margin-bottom: 50px;
-    width: 300px;
+    margin-top: 20px;
+    width: 400px;
     padding: 20px;
-    line-height: 20px;
+    line-height: 25px;
     color: #8e8b8b;  
     position: relative;
-  }
+
   
+  }
+  .team  .team_member .team_img{
+    /* position: absolute;
+     top: -50px;
+     left: 50%;
+     transform: translateX(-50% );
+     width: 100px;
+     height: 100px;*/
+    
+     transform: translateX(-9%);
+    margin: 10px;
+    /* width : 5px;
+ height :100px;
+ padding: 0px 180px;
+ margin-top: 30px;
+ */
+ 
+   }
+   
+   .team .team_member .team_img img{
+     /*width: 200px;
+     height: 300px;
+     padding: 10px 10px;
+     margin: 0px auto;*/
+    padding: 0px 3px;
+    margin: 1px 1px;
+   
+     
+   }
   .team .team_member h3{
     color: black;
     font-size: 26px;
@@ -248,22 +322,7 @@ font-family: 'panthera';
   
   
   
-  .team .team_member .team_img{
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
-   
-    background: #fff;
-  }
   
-  .team .team_member .team_img img{
-    width: 100px;
-    height: 100px;
-    padding: 15px 5px auto;
-  }
   .team .team_member ul{
     color: black;
     text-align: left;
@@ -276,11 +335,15 @@ font-family: 'panthera';
     text-transform: uppercase;
   }
   #contact{
-    background-image: url(../IllustrationsLogo/Accueil/Pantherhome7.png);
-    padding: 70px 0;
-display: block;
+    
+   
+     display: block;
     justify-content: center;
-    width: 100%;
+    background-image: url(../IllustrationsLogo/Accueil/Pantherhome7.png);
+    padding: 450px 80px;
+    margin: 15px 60px;
+    background-position: center;
+
 
 }
 
@@ -292,10 +355,13 @@ display: block;
 
 
 
-#contact .form{
+.container .form{
   /*width: 300px;
   padding: 300px auto;
   position: absolute;*/
+  
+  
+  
   width: 600px;
   
    height: auto;
@@ -305,9 +371,10 @@ display: block;
    left: 50%;
   
    transform: translate(-50%, -50%);
-   margin: auto 40px;
+   margin: auto 60px;
    background: white;
-   border-radius: 70px;
+   
+   border-radius: 120px;
    background-size: 38px;
    padding: 30px 20px;
   
@@ -347,20 +414,27 @@ display: block;
   }
 
   
-  textarea {
+  /*textarea {
     font-size: 0.8rem;
     letter-spacing: 1px;
     width: 100%;
-    padding: 15px;
-  }
+    padding: 18px;
+    font-size: 15px;
+    justify-content: center;
+  }*/
   
   textarea {
-    padding: 10px;
-    max-width: 100%;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #999;
+    
+   /* padding: 10px;*/
+  color: #979796;
+    font-size: 15px;
+    justify-content: left;
+    
+   padding:50px  120px;
+    margin: 5px 20px;
+    
+    
+  
     border-radius: 40px;
   }
   
@@ -437,7 +511,7 @@ display: block;
     letter-spacing: 0.4em;
   }
   .col-3 .social-icon{
-    padding:20px  0;
+    padding:30px  40px;
     margin: 0 50px;
     font-size: 25px;
    
@@ -445,10 +519,4 @@ display: block;
     position: relative;
    
   }
-
-
-
-
-
-
-
+  
