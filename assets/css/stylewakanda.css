@@ -73,7 +73,7 @@ background-image: url(../IllustrationsLogo/Allpages/arrière_plan.png);
 display: flex;
 flex-wrap: wrap;
 margin: 3px auto;
-height: 600px;
+height: 950px;
 display: block;
 justify-content: center;
 background-image: url(../IllustrationsLogo/Wakanda/Pantherwakanda1.png),url(../IllustrationsLogo/Allpages/arrière_plan.png); 
@@ -97,7 +97,7 @@ padding: 20px 120px ;
 }
 .section-container .columns.content .content-container
 {
-padding:250px 70px;
+padding:450px 90px;
 
 }
 .section-container .columns.content .content-container h5
@@ -158,7 +158,7 @@ color: white;
    /* padding: 25px 30px ;*/
    align-items: center;
     
-   padding: 200px 150px;
+   padding: 180px 120px;
 }
 
 .content .columns {
@@ -193,6 +193,7 @@ font-weight: 30px;
     margin-bottom: 5px;
   text-align: left;
   font-weight: normal;
+  
 }
 
 .columns .lien{

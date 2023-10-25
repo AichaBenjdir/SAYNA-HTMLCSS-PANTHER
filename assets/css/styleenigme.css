@@ -168,9 +168,13 @@ color: white;
 }
 .colonne11 ul {
   float: left;
-  margin: 80px 10px;
+  margin: 30px 15px;
   font-family: "Cantarell-Regular";
+  padding: 10px 15px;
   
+}
+.colonne11 .font{
+  font-family: "Wakanda Forever Regular";
 }
 .colonne12 h6{
 padding: 20px ;
@@ -204,6 +208,14 @@ padding: 20px ;
   text-align: center;
   color: white;
 
+}
+.colonne .colonne2 p{
+  background-image:  url(../IllustrationsLogo/Enigme/Pantherenigme2.png);
+  height: 40%;
+  padding: 165px 60px;
+  background-position: center;
+ 
+  
 }
 .footer{
     margin-top: 150px;

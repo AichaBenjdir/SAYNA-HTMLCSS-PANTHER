@@ -320,7 +320,12 @@ margin-left: 100px;
     margin-bottom: 5px;
   }
   
-  
+ .team_member .boutton .favorite-styled{
+    background-color: #3D2DA6;
+    color: white;
+    padding: 6px;
+    margin: 3px;
+  }
   
   
   .team .team_member ul{
@@ -334,6 +339,17 @@ margin-left: 100px;
     font-size: 12px;
     text-transform: uppercase;
   }
+
+
+
+
+
+
+
+
+
+
+
   #contact{
     
    
@@ -362,7 +378,7 @@ margin-left: 100px;
   
   
   
-  width: 600px;
+  width: 700px;
   
    height: auto;
   
@@ -372,10 +388,10 @@ margin-left: 100px;
   
    transform: translate(-50%, -50%);
    margin: auto 60px;
-   background: white;
+   background: #FFFFFF;
    
    border-radius: 120px;
-   background-size: 38px;
+   background-size: 120px;
    padding: 30px 20px;
   
   }
@@ -399,7 +415,7 @@ margin-left: 100px;
     color: #979796;
     font-size: 15px;
     justify-content: center;
-    padding: 15px;
+    padding: 30px;
     
   }
   
@@ -428,14 +444,20 @@ margin-left: 100px;
    /* padding: 10px;*/
   color: #979796;
     font-size: 15px;
-    justify-content: left;
+    justify-content: center;
     
    padding:50px  120px;
-    margin: 5px 20px;
+    margin: 3px 50px;
+    text-align: left;
     
     
   
     border-radius: 40px;
+  }
+  #story{
+    font-size: 15px;
+    justify-content: center;
+   
   }
   
   
